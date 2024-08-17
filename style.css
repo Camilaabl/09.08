@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+
+}
+section{
+    padding-left: 121px ;
+    margin-bottom: 50px;
+}
+.course_info_bg{
+    background-image: url(./image/af86102f8ab5d5f0d794892ffcd61235.png);
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    background-position: right 58px top 121px;
+}
+.logo{
+    margin-top: 37px;
+    width: 295px;
+    height: 41px;
+}
+.course_info{
+    margin-top: 85px;
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+.course_info div {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 21px;
+    line-height: 140%;
+}
+.subtitle {
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 700;
+
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+h1 {
+    font-size: calc(4.2vw + 26.25px);
+    font-family: "Chava";
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+.jobInfo {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37.8px;
+    width: 930px;
+    margin-bottom: 20px;
+
+
+}
+.primary {
+    width: 328px;
+    background-color:#6e3aba;
+    font-weight: 500;
+    color: white;
+    padding: 20px 0;
+    font-size: 18px;
+    border: 1px solid #6e3aba;
+    border-radius: 12px;
+   
+}
+ 
+
+.bg{
+   display: flex;
+   flex-direction: column;
+   gap: 57px;
+   align-items: center;
+   background-color: #6e3aba;
+   padding: 84px 0;
+}
+.sell{
+    font-size: 52px;
+    line-height: 117%;
+    color: white;
+}
+.sell_container{
+    display: flex;
+    gap: 85px;
+
+}
+
+.sell_card .time{
+    font-family: "Chava";
+    font-size: 174px;
+    line-height: 107%;
+}
+
+.sell_card span{
+    display: block;
+    font-size: 27px;
+    line-height: 117%;
+    font-weight: 500;
+    margin-left: 10px;
+    text-align: center;
+}
+.secondary{
+    border-radius: 12px;
+    background-color:white;
+    width: 328px;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 117%;
+    font-weight: 500;
+    color: #6e3aba;
+    border: 1px solid #6e3aba;
+}
+
+/* Экран 3 start */
+.course_methods h1 {
+    width: 659px;
+font-family: 'TT Hoves', sans-serif;
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.people_faces {
+
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.people_faces div {
+    width:450px;
+    height:468px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.people_faces div img {
+    width: 210px;
+    height: 210px;    
+}
+.people_faces div h4 {
+    font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+font-weight: 600;
+line-height: 37.8px;
+text-align: left;
+color:#222222;
+}
+.people_faces div p {
+font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+line-height: 37.8px;
+}
+.monthes {
+    margin-top: 160px;
+}
+.two_monthes {
+font-family: 'TT Hoves', sans-serif;
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.educations {
+    margin-top: 90px;
+    width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 161px;
+}
+.educations div {
+    width:  400px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.educations div h5 {
+font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+font-weight: 600;
+line-height: 37.8px;
+text-align: left;
+}
+.educations div p {
+font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+line-height: 37.8px;
+text-align: left;
+
+}
+
+.courseProgram{
+    padding: 80px 58px 35px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.courseProgram h2{
+    margin-bottom: 40px;
+}
+
+.courseProgram ul li{
+    list-style: none;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid black;
+}
+
+.courseProgram ul{
+    padding-bottom: 10px;
+}
+.courseDesktop,.courseMobile{
+    color: white;
+    background-color: #6e3aba;
+    border-radius: 12px;
+    border: 2px solid #6e3aba;
+    display: block;
+    margin: 0 auto;
+    width: 424px;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+.courseMobile{
+    display: none;
+}
+
+.courseImg{
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    width: 80px;
+    height: 80px;
+}
+@media (max-width:975px) {
+    .courseDesktop{
+        display: none;
+    }
+    .courseMobile{
+        display: block;
+        
+    }
+    .courseProgram{
+        margin-bottom: 30px;
+    }
+}
+
+/* Экран 4 start */
+
+.about_teacher {
+    display: flex;
+    flex-direction: column;
+}
+.about_teacher h1 {
+  
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+.parent_teacher {
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+}
+.parent_teacher img{
+    width: 399px;
+height: 562px;
+top: 158px;
+left: 119px;
+gap: 0px;
+opacity: 0px;
+
+}
+.emoji_text {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+}
+.child_teacher h2{
+    font-family: TT Hoves;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+
+}
+.child_teacher p{
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 37.8px;
+text-align: left;
+
+}
+
+.emoji_text img {
+    width: 36px;
+height: 36px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.emoji_text p {
+ font-family: TT Hoves;
+font-size: 21px;
+font-weight: 400;
+line-height: 29.4px;
+text-align: left;
+
+}
+
+/* Экран 5 start */
+
+.job_salary {
+    display: flex;
+    flex-direction: column;
+}
+.job_salary h1 {
+font-family: 'TT Hoves', sans-serif;
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.job_salary p {
+    font-family: 'TT Hoves', sans-serif;
+font-size: 27px;
+font-weight:400;
+line-height: 37.8px;
+text-align: left;
+}
+.job_salary img {
+    margin-top: 36px;
+}
+
+/* Экран 6 start */
+
+
+.addition {
+display: flex;
+flex-direction: column;
+
+}
+.addition h2 {
+font-size: 58px;
+font-weight: 500;
+line-height: 68.32px;
+
+}
+.parent_add {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+ .parent_add img {
+    width: 579px;
+    height: 354px;
+    top: 98px;
+    left: 61px;
+    
+ }
+
+ .child_add {
+    width: Fixed (520px)px;
+    height: Hug (224px)px;
+    top: 158px;
+    left: 640px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+ }
+ .child_add span {
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    text-align: left;
+    
+
+ }
